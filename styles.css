@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #ffff; */
+    margin: 0;
+    padding: 0;
+    background-image: url('images/green-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* position: absolute; */
+
+  }
+  
+  .body-container {
+    max-width: 700px;
+    /* margin: 0 auto; */
+    padding: 900px 200px;
+    background-color: #000;
+    /* border-radius: 30px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 600px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 90px;
+    color: #ff3366ce;
+    /* margin-top: 10px;  */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Pacifico', cursive; 
+    color: white;
+    font-size: 30px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+  }
+  
+  .form-group a {
+    width: 20%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #ff3366ce;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-group-signup {
+    margin-bottom: 20px;
+  }
+
+  .signup-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #666; /* Font color */
+    font-size: 14px; /* Adjust font size */
+    font-family: 'Lato', sans-serif; /* Feminine font */
+    font-size: 30px;
+  }
+  
+  .signup-link a {
+    color: #ff3366; /* Link color */
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  .signup-header {
+    text-align: center;
+    font-weight: bold;
+    color: #ff3366ce;
+    font-size: 70px;
+  }
+  
+  .signup-h3 {
+    width: 105%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+/* Header styles */
+/* .body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+} */
+
+.username-bookpad {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color: #ff3366ce;
+  font-weight: lighter;
+  z-index: 100;
+  position: sticky;
+
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  z-index: 100;
+}
+
+
+.profile-icon img,
+.settings-icon img {
+  width: 39px;
+  background-color: #6699CC;
+}
+
+.decorative-element {
+  text-align: center;
+  color: #6699CC; 
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.username-h3 {
+  padding-left: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+
+} 
+
+/* Feed styles */
+.user-feed {
+  text-align: left;
+  color: #000;
+  font-size: 46px;
+  font-family: cursive;
+  font-weight: lighter;
+}
+
+.feed {
+  padding: 70px 30px;
+  margin-top: 20px;
+  border-radius: 15px;
+  margin: 0;
+  width: 900px;
+} 
+
+.post {
+  background-color: #E6E6FA;
+  align-items: center;
+  padding: 150px 30px;
+  margin-top: 10px; 
+  margin-bottom: 50px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.user-info h3 {
+  margin-right: 5px;
+}
+
+.like-button {
+  width: 2px;
+  height: 5px;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  size: 5px;
+}
+
+.like-button.clicked {
+  background-image: url('images/red-love-icon.png');
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #f0f0f0;
+  z-index: 100;
+}
+
+footer img {
+  width: 30px;
+}  
